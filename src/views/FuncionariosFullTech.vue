@@ -43,6 +43,9 @@ export default {
         th.items = response.data
       })
     }
+  },
+  mounted() {
+    this.getFuncionarios()
   }
 }
 </script>
