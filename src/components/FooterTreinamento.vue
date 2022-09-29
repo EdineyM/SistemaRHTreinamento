@@ -1,13 +1,13 @@
 <template>
   <footer>
-    <a class="linksUteis" href="https://google.com" target="_blank">
+    <a class="linksUteis" href="https://v2.vuejs.org/" target="_blank">
       <img alt="documentacao Vue" title="documentacao Vue" src="@/assets/logo.png"/>
     </a>
-    <a class="linksUteis" @click="consoleData">
-      <img alt="curso YouTube" title="curso YouTube" src="@/assets/logo.png"/>
+    <a class="linksUteis" href="https://www.youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL" target="_blank">
+      <img alt="curso YouTube" title="curso YouTube" src="@/assets/youtube.png"/>
     </a>
-    <a class="linksUteis" href="https://google.com" target="_blank">
-      <img alt="documentacao desafio" title="documentacao desafio" src="@/assets/logo.png"/>
+    <a class="linksUteis" href="https://docs.google.com/document/d/1B_udk-Z7HeUOiKLLUMMn_lnxt76ma3X5_WHr3qvaeDE/edit?usp=sharing" target="_blank">
+      <img alt="documentacao desafio" title="documentacao desafio" src="@/assets/doc.png"/>
     </a>
   </footer>
 </template>
